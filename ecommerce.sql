@@ -1,3 +1,4 @@
+
 -- E-COMMERCE DATABASE SCHEMA
 
 CREATE DATABASE IF NOT EXISTS Ecommerce;
@@ -211,3 +212,4 @@ INSERT INTO Product_attribute (productId, attr_type_id, attr_cat_id, value) VALU
 (2, 6, 2, 'Waterproof'),
 (3, 4, 3, '1.5 kg'),
 (3, 5, 1, 'Generic');
+
