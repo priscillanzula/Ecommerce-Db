@@ -1,0 +1,76 @@
+Table Brand {
+  brandId INT [pk]
+  brandName VARCHAR
+  country VARCHAR
+}
+
+Table Product_category {
+  categoryId INT [pk]
+  categoryName VARCHAR
+  slug VARCHAR [unique]
+}
+
+Table Product {
+  productId INT [pk]
+  brandId INT [ref: > Brand.brandId]
+  categoryId INT [ref: > Product_category.categoryId]
+  productName VARCHAR
+  price DECIMAL
+}
+
+Table Product_image {
+  imageId INT [pk]
+  productId INT [ref: > Product.productId]
+  url VARCHAR
+  isPrimary BOOLEAN
+}
+
+Table Color {
+  colorId INT [pk]
+  colorName VARCHAR
+}
+
+Table Size_category {
+  size_categoryId INT [pk]
+  name VARCHAR
+}
+
+Table Size_option {
+  size_optionId INT [pk]
+  size_categoryId INT [ref: > Size_category.size_categoryId]
+  label VARCHAR
+}
+
+Table Product_variation {
+  variationId INT [pk]
+  productId INT [ref: > Product.productId]
+  colorId INT [ref: > Color.colorId]
+  size_optionId INT [ref: > Size_option.size_optionId]
+}
+
+Table Product_item {
+  itemId INT [pk]
+  variationId INT [ref: > Product_variation.variationId]
+  price DECIMAL
+  stock INT
+  sku VARCHAR [unique]
+}
+
+Table Attribute_category {
+  attr_cat_id INT [pk]
+  name VARCHAR
+}
+
+Table Attribute_type {
+  attr_type_id INT [pk]
+  name VARCHAR
+  dataType VARCHAR
+}
+
+Table Product_attribute {
+  attr_id INT [pk]
+  productId INT [ref: > Product.productId]
+  attr_cat_id INT [ref: > Attribute_category.attr_cat_id]
+  attr_type_id INT [ref: > Attribute_type.attr_type_id]
+  value VARCHAR
+}
