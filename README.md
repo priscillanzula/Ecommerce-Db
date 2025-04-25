@@ -8,7 +8,8 @@ Design and implement an e-commerce database from scratch, applying best practice
 ## 📂 Deliverables
 ERD (Entity-Relationship Diagram)
 
-![ecommerce sql](https://github.com/user-attachments/assets/c1de6a2b-ffd6-40ed-8476-82f39cd982c2)
+![ecommerce ERD](https://github.com/user-attachments/assets/55139a12-8646-49fe-8e8b-65037eb00d79)
+
 
 
 
