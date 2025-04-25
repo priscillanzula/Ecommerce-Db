@@ -1,85 +1,39 @@
-# Ecommerce-Db
-Peer Group Assignment: E-commerce Database Design
+### 🛍️ Ecommerce-Db
+### 📘 Overview
+This is a peer group project focused on designing and building a robust e-commerce database. The goal is to create a well-structured Entity-Relationship Diagram (ERD) and implement a relational database that supports a wide range of e-commerce functionalities.
 
-🎯 Objective
+### 🎯 Objective
+Design and implement an e-commerce database from scratch, applying best practices in ER modeling, normalization, and team collaboration.
 
-This challenge will help you master the art of database design🧠💾
+## 📂 Deliverables
+ERD (Entity-Relationship Diagram)
 
-Your group will design an Entity-Relationship Diagram (ERD) and collaboratively build an e-commerce database from scratch.
+ecommerce.sql – SQL script to create all tables and relationships
 
- 
+###🗃️ Key Tables
+product_image
 
-🛠️ Instructions
+color
 
-1️⃣ Create an ERD ✍️
+product_category
 
-Clearly define all entities (tables) and their attributes.
+product
 
-Understand and document the relationships between tables.
+product_item
 
-Identify primary keys, foreign keys, and other constraints.
+brand
 
-Use tools like Lucidchart, draw.io, dbdiagram.io, or MySQL Workbench 🛠️
+product_variation
 
-2️⃣ Plan the Data Flow 🔄
+size_category
 
-Map out how data flows between entities.
+size_option
 
-As a team, discuss how the database will be structured and implemented.
+product_attribute
 
-Think like architects! 🏗️
+attribute_category
 
-3️⃣ Group Collaboration 🤝
+attribute_type
 
-Work together on analysis, design, and implementation.
-
-Everyone should understand every part of the project.
-
-Share ideas, ask questions, and keep the teamwork strong! 💬
-
-4️⃣ Submission 🚀
-
-Create a public GitHub repository 📂
-
-Upload your final ERD and ecommerce.sql file.
-
-Ensure everything is accessible to the reviewer 🔍
-
-🧑‍🤝‍🧑 Group Collaboration Tips
-
-Stay connected and meet regularly 👥
-
-Use GitHub for version control, documentation, and teamwork 📘
-
-Track your progress, share updates, and troubleshoot together 🔧
-
-Make sure everyone is in the loop 🧭
- 
-
-🗃️ Tables to Be Created
-
-You'll be building the following tables for your e-commerce platform 🛍️:
-
-🖼️ product_image – Stores product image URLs or file references
-
-🎨 color – Manages available color options
-
-🗂️ product_category – Classifies products into categories (e.g., clothing, electronics)
-
-📦 product – Stores general product details (name, brand, base price)
-
-🧾 product_item – Represents purchasable items with specific variations
-
-🏷️ brand – Stores brand-related data
-
-🔄 product_variation – Links a product to its variations (e.g., size, color)
-
-📏 size_category – Groups sizes into categories (e.g., clothing sizes, shoe sizes)
-
-📐 size_option – Lists specific sizes (e.g., S, M, L, 42)
-
-🧵 product_attribute – Stores custom attributes (e.g., material, weight)
-
-📚 attribute_category – Groups attributes into categories (e.g., physical, technical)
-
-🧪 attribute_type – Defines types of attributes (e.g., text, number, boolean)
+### 🤝 Collaboration
+This project was completed collaboratively with version control and documentation handled via GitHub.
