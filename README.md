@@ -1,85 +1,82 @@
-# Ecommerce-Db
-Peer Group Assignment: E-commerce Database Design
+### 🛍️ Ecommerce-Db
+### 📘 Overview
+This is a peer group project focused on designing and building a robust e-commerce database. The goal is to create a well-structured Entity-Relationship Diagram (ERD) and implement a relational database that supports a wide range of e-commerce functionalities.
 
-🎯 Objective
+### 🎯 Objective
+Design and implement an e-commerce database from scratch, applying best practices in ER modeling, normalization, and team collaboration.
 
-This challenge will help you master the art of database design🧠💾
+## 📂 Deliverables
+ERD (Entity-Relationship Diagram)
 
-Your group will design an Entity-Relationship Diagram (ERD) and collaboratively build an e-commerce database from scratch.
+![ecommerce ERD](https://github.com/user-attachments/assets/55139a12-8646-49fe-8e8b-65037eb00d79)
 
- 
 
-🛠️ Instructions
 
-1️⃣ Create an ERD ✍️
 
-Clearly define all entities (tables) and their attributes.
+ecommerce.sql – SQL script to create all tables and relationships
 
-Understand and document the relationships between tables.
+### 🗃️ Key Tables
+product_image
 
-Identify primary keys, foreign keys, and other constraints.
+color
 
-Use tools like Lucidchart, draw.io, dbdiagram.io, or MySQL Workbench 🛠️
+product_category
 
-2️⃣ Plan the Data Flow 🔄
+product
 
-Map out how data flows between entities.
+product_item
 
-As a team, discuss how the database will be structured and implemented.
+brand
 
-Think like architects! 🏗️
+product_variation
 
-3️⃣ Group Collaboration 🤝
+size_category
 
-Work together on analysis, design, and implementation.
+size_option
 
-Everyone should understand every part of the project.
+product_attribute
 
-Share ideas, ask questions, and keep the teamwork strong! 💬
+attribute_category
 
-4️⃣ Submission 🚀
+attribute_type
 
-Create a public GitHub repository 📂
+### 🤝 Collaboration
+This project was completed collaboratively with version control and documentation handled via GitHub.
 
-Upload your final ERD and ecommerce.sql file.
-
-Ensure everything is accessible to the reviewer 🔍
-
-🧑‍🤝‍🧑 Group Collaboration Tips
-
-Stay connected and meet regularly 👥
-
-Use GitHub for version control, documentation, and teamwork 📘
-
-Track your progress, share updates, and troubleshoot together 🔧
-
-Make sure everyone is in the loop 🧭
- 
-
-🗃️ Tables to Be Created
-
-You'll be building the following tables for your e-commerce platform 🛍️:
-
-🖼️ product_image – Stores product image URLs or file references
-
-🎨 color – Manages available color options
-
-🗂️ product_category – Classifies products into categories (e.g., clothing, electronics)
-
-📦 product – Stores general product details (name, brand, base price)
-
-🧾 product_item – Represents purchasable items with specific variations
-
-🏷️ brand – Stores brand-related data
-
-🔄 product_variation – Links a product to its variations (e.g., size, color)
-
-📏 size_category – Groups sizes into categories (e.g., clothing sizes, shoe sizes)
-
-📐 size_option – Lists specific sizes (e.g., S, M, L, 42)
-
-🧵 product_attribute – Stores custom attributes (e.g., material, weight)
-
-📚 attribute_category – Groups attributes into categories (e.g., physical, technical)
-
-🧪 attribute_type – Defines types of attributes (e.g., text, number, boolean)
+<!-- readme: contributors -start -->
+<table>
+  <thead></thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/ochiengtim">
+          <img src="https://avatars.githubusercontent.com/u/163648475?v=4" width="100;" alt="Timothy Ochieng"/>
+          <br />
+          <sub><b>Timothy Ochieng</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/MishMatende">
+          <img src="https://avatars.githubusercontent.com/u/113938133?v=4" width="100;" alt="Mishael Matende"/>
+          <br />
+          <sub><b>Mishael Matende</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/chepkwonychepchieng">
+          <img src="https://avatars.githubusercontent.com/u/205326460?v=4" width="100;" alt="Chepkwony Chepchieng"/>
+          <br />
+          <sub><b>Chepkwony Chepchieng</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/priscillanzula">
+          <img src="https://avatars.githubusercontent.com/u/144167777?v=4" width="100;" alt="priscillanzula"/>
+          <br />
+          <sub><b>Priscilla Nzula</b></sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- readme: contributors -end -->
