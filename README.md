@@ -21,7 +21,7 @@ Data Integrity & Validation: Automated triggers, constraints, and validation que
 #### Core Analytics Queries
 
 1. Top Selling Products
-2. 
+
 ```
 SELECT p.productName, b.brandName, SUM(oi.quantity) as units_sold,
        SUM(oi.subtotal) as revenue, AVG(r.rating) as avg_rating
@@ -159,6 +159,7 @@ This project was completed collaboratively with version control and documentatio
     </tr>
   </tbody>
 </table>
+
 
 
 
