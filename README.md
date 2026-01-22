@@ -1,4 +1,4 @@
-### E-commerce SQL Analytics Portfolio 📊
+### E-commerce SQL Analytics 📊
 #### Overview
 
 This project is a comprehensive e-commerce database system designed to demonstrate advanced SQL skills, including business intelligence analytics, inventory management, and customer segmentation. It’s a fully normalized database optimized for performance, complete with triggers, indexes, and real-world e-commerce workflows.
@@ -17,6 +17,7 @@ Data Integrity & Validation: Automated triggers, constraints, and validation que
 
 ####  Database Schema
 
+[erd.pdf](https://github.com/user-attachments/files/24795981/erd.pdf)
 
 #### Core Analytics Queries
 
@@ -159,6 +160,7 @@ This project was completed collaboratively with version control and documentatio
     </tr>
   </tbody>
 </table>
+
 
 
 
