@@ -91,7 +91,8 @@ mysql -u root -p < complete-database.sql
 ```
 
  3. Run analytics
-    ```
+    
+```
 SELECT 'Brands' as Entity, COUNT(*) FROM Brand
 UNION ALL SELECT 'Products', COUNT(*) FROM Product
 UNION ALL SELECT 'Customers', COUNT(*) FROM Customers;
@@ -111,16 +112,15 @@ UNION ALL SELECT 'Customers', COUNT(*) FROM Customers;
    Business Analytics- CLV, inventory optimization, segmentation.	
 
 #### Project Structure
-
 ```
-ecommerce-sql-portfolio/
-├── README.md                     # Project overview and documentation
-├── complete-database.sql          # Full SQL script to create database, tables, indexes, triggers, and sample data
-├── queries/                       # Directory for analytical queries
-│   ├── business-intelligence.sql  # BI-focused queries (top products, segmentation)
-│   └── advanced-analytics.sql     # Advanced SQL analytics (CLV, trends, forecasts)
-└── optimization/                  # Performance optimization files
-    └── performance-analysis.md    # Details on indexes, triggers, query performance
+   ecommerce-sql-portfolio/
+   ├── README.md                     # Project overview and documentation
+   ├── complete-database.sql          # Full SQL script to create database, tables, indexes, triggers, and sample data
+   ├── queries/                       # Directory for analytical queries
+    │   ├── business-intelligence.sql  # BI-focused queries (top products, segmentation)
+    │   └── advanced-analytics.sql     # Advanced SQL analytics (CLV, trends, forecasts)
+    └── optimization/                  # Performance optimization files
+       └── performance-analysis.md    # Details on indexes, triggers, query performance
 ```
 
 
@@ -163,6 +163,7 @@ This project was completed collaboratively with version control and documentatio
     </tr>
   </tbody>
 </table>
+
 
 
 
