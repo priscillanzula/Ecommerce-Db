@@ -16,11 +16,7 @@ Business Intelligence: Top products, customer segmentation, sales forecasting, a
 Data Integrity & Validation: Automated triggers, constraints, and validation queries ensure clean and reliable data.
 
 ####  Database Schema
-Customers → Orders → Order Items → Product Items
-    ↓          ↓          ↓           ↓
-Addresses  Payments  Products  Variations → Attributes
-                          ↓           ↓
-                     Categories   Reviews
+
 
 #### Core Analytics Queries
 
@@ -163,6 +159,7 @@ This project was completed collaboratively with version control and documentatio
     </tr>
   </tbody>
 </table>
+
 
 
 
