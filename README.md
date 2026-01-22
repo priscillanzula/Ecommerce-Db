@@ -88,28 +88,30 @@ mysql -u root -p < complete-database.sql
 2. Verify installation
 ``` USE Ecommerce;
   SHOW TABLES;
-
 ```
+
  3. Run analytics
     ```
 SELECT 'Brands' as Entity, COUNT(*) FROM Brand
 UNION ALL SELECT 'Products', COUNT(*) FROM Product
 UNION ALL SELECT 'Customers', COUNT(*) FROM Customers;
-
 ```
+
 #### Skills Demonstrated
-##### Skill	Examples	Level
-   Complex Joins	5-table joins for product analytics	Advanced.
 
-   Window Functions	Sales trends with LAG/LEAD	Advanced.
+##### Skill	
+   Complex Joins- 5-table joins for product analytics.	
 
-   Index Optimization	15+ strategic indexes	Advanced.
+   Window Functions- sales trends with LAG/LEAD.	
 
-   Data Integrity	Automated triggers, constraints	Advanced.
+   Index Optimization- 10+ strategic indexes.	
 
-   Business Analytics	CLV, inventory optimization, segmentation	Advanced.
+   Data Integrity- automated triggers, constraints.	
+
+   Business Analytics- CLV, inventory optimization, segmentation.	
 
 #### Project Structure
+
 ```
 ecommerce-sql-portfolio/
 ├── README.md                     # Project overview and documentation
@@ -121,10 +123,11 @@ ecommerce-sql-portfolio/
     └── performance-analysis.md    # Details on indexes, triggers, query performance
 ```
 
+
 ###  Collaboration
 This project was completed collaboratively with version control and documentation handled via GitHub.
 
-<!-- readme: contributors -start -->
+
 <table>
   <thead></thead>
   <tbody>
@@ -160,5 +163,6 @@ This project was completed collaboratively with version control and documentatio
     </tr>
   </tbody>
 </table>
-<!-- readme: contributors -end -->
+
+
 
